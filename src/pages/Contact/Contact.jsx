@@ -68,7 +68,7 @@ const Contact = () => {
           <div className="text">
             <span>
               <img src={mail} alt="" />
-              <a href="mailto:utkarshraj1306@gmail.com">{data.emailId}</a>
+              <a href="mailto:shubhmehta942@gmail.com">{data.emailId}</a>
               <div></div>
             </span>
             <span>

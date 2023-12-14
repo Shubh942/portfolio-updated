@@ -126,14 +126,14 @@ const data = {
   started: "Dec 2021",
   end: "june 2025",
   instituteLogo:
-    "https://media.licdn.com/dms/image/C4D0BAQG2LjL0bUoxvA/company-logo_200_200/0/1519949103603?e=1695859200&v=beta&t=OIbsvPo-A2cuDtNUyvfZN1ACX935cqhDIumtWHZg2X0",
+    "http://res.cloudinary.com/df4t1zu7e/image/upload/v1702541289/apnl5rh7ahxpdrxotlil.jpg",
   experience: [
     {
       heading: "Prometeo'23 - HackOver-flow(24hrs)",
       type: "Hackthon-IIt Jodhpur",
       duration: "Prometeo'23-HackOverflow(24Hrs)",
       companyLogo:
-        "https://media.licdn.com/dms/image/C4D0BAQG2LjL0bUoxvA/company-logo_200_200/0/1519949103603?e=1695859200&v=beta&t=OIbsvPo-A2cuDtNUyvfZN1ACX935cqhDIumtWHZg2X0",
+        "http://res.cloudinary.com/df4t1zu7e/image/upload/v1702541645/jilk0cazb7ejael7h2bb.jpg",
       lowHeading: [
         {
           heading: "Project Course",
@@ -155,7 +155,7 @@ const data = {
       type: "Hackthon-IIt Jodhpur",
       duration: "Prometeo'23-HackOverflow(24Hrs)",
       companyLogo:
-        "https://media.licdn.com/dms/image/C4D0BAQG2LjL0bUoxvA/company-logo_200_200/0/1519949103603?e=1695859200&v=beta&t=OIbsvPo-A2cuDtNUyvfZN1ACX935cqhDIumtWHZg2X0",
+        "http://res.cloudinary.com/df4t1zu7e/image/upload/v1702541645/jilk0cazb7ejael7h2bb.jpg",
       lowHeading: [
         {
           heading: "Project Course",
@@ -173,7 +173,7 @@ const data = {
       type: "Hackthon-IIt Jodhpur",
       duration: "Prometeo'23-HackOverflow(24Hrs)",
       companyLogo:
-        "https://media.licdn.com/dms/image/C4D0BAQG2LjL0bUoxvA/company-logo_200_200/0/1519949103603?e=1695859200&v=beta&t=OIbsvPo-A2cuDtNUyvfZN1ACX935cqhDIumtWHZg2X0",
+        "http://res.cloudinary.com/df4t1zu7e/image/upload/v1702541645/jilk0cazb7ejael7h2bb.jpg",
       lowHeading: [
         {
           heading: "Project Course",

@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import "./About.scss";
 import { Navbar, Footer } from "../../components";
 import { motion } from "framer-motion";
-import utkarshimg from "../../assets/utkarshimg.png";
+// import shubhimg from "../../assets/shubhimg.png";
+// import TestimonialSlider from "../../Slider/TestimonialSlider";
+
 import data from "../../data";
 import Clang from "../../assets/Clang.png";
 import reactIcon from "../../assets/react.png";
 import cpp from "../../assets/cpp.png";
 import Tilt from "react-parallax-tilt";
+import TestimonialSlider from "../../components/Slider/TestimonialSlider";
+import Spacing from "../../components/Spacing";
 
 const About = () => {
   const [rotate, setRotate] = useState({
@@ -31,6 +35,7 @@ const About = () => {
       className="about"
     >
       <Navbar />
+
       <div className="contents">
         <h1 className="gradient__text">About</h1>
         <div className="main-info">
@@ -41,7 +46,11 @@ const About = () => {
             and {data.majorSkill3} {data.aboutYourself}
           </p>
           <Tilt>
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              className="opj"
+            >
               <img
                 src={data.imageAbout}
                 alt={data.name}
@@ -91,6 +100,18 @@ const About = () => {
           </div>
         </div>
       </div>
+      {/* Start Testimonial Section */}
+      <br />
+      <h1 className="gradient__text">Findings</h1>
+      {/* End Team Section */}
+
+      {/* Start Testimonial Section */}
+      <TestimonialSlider className="test" />
+      {/* End Testimonial Section */}
+
+      {/* Start Blog Section */}
+      {/* <Spacing lg="150" md="80" /> */}
+      {/* End Testimonial Section */}
       <Footer />
     </motion.div>
   );

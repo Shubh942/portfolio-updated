@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/loho.jpg";
 import { NavLink } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
 

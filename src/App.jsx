@@ -17,7 +17,7 @@ import CustomCursor from "./components/CustomCursor/CustomCursor";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <AnimatePresence mode="wait">
         <BrowserRouter>
           <div>{/* <Navbar /> */}</div>
