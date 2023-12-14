@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
-import logo from "../../assets/loho.jpg";
+// import logo from "http://res.cloudinary.com/df4t1zu7e/image/upload/v1702543976/ynk203tc7f8lmobiafmr.jpg";
 import { NavLink } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
 
@@ -43,7 +43,10 @@ const Navbar = () => {
   };
   return (
     <div className="navbar">
-      <img src={logo} alt="UR logo" />
+      <img
+        src="http://res.cloudinary.com/df4t1zu7e/image/upload/v1702543976/ynk203tc7f8lmobiafmr.jpg"
+        alt="UR logo"
+      />
       <div className="menu">
         <Menu />
       </div>

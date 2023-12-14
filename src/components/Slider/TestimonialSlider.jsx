@@ -12,7 +12,8 @@ export default function TestimonialSlider() {
   const [nav2, setNav2] = useState();
   const testimonialData = [
     {
-      testimonialThumb: "/public/images/swiggy2.jpg",
+      testimonialThumb:
+        "http://res.cloudinary.com/df4t1zu7e/image/upload/v1702544090/ynkshjvxyefqxeeekcfn.jpg",
       testimonialText:
         "This finding in swiggy allow me to login via bypassing otp in partner-with-us subdomain in swiggy. Response is not been sent properly by server due to which by changing the boolean the site given the access to login",
       avatarName: " ",
@@ -20,7 +21,8 @@ export default function TestimonialSlider() {
       ratings: "4",
     },
     {
-      testimonialThumb: "public/images/indeed.png",
+      testimonialThumb:
+        "http://res.cloudinary.com/df4t1zu7e/image/upload/v1702544320/m11o3lmiuuzxmqduoifh.jpg",
       testimonialText:
         "Report redirection vulnerabilities found on Indeed responsibly, offering clear details. Allow time for the organization to address the issues before considering public disclosure",
       avatarName: " ",
@@ -28,7 +30,8 @@ export default function TestimonialSlider() {
       ratings: "3.5",
     },
     {
-      testimonialThumb: "public/images/boat.jpg",
+      testimonialThumb:
+        "http://res.cloudinary.com/df4t1zu7e/image/upload/v1702544158/tojspdyotzmseoccfwi1.jpg",
       testimonialText:
         "Discovered a critical business logic flaw in Boatzon, enabling users to manipulate prices for a 100% discount. Promptly reported the vulnerability to the organization, providing detailed information for a responsible and swift resolution.",
       avatarName: " ",
@@ -36,7 +39,8 @@ export default function TestimonialSlider() {
       ratings: "5",
     },
     {
-      testimonialThumb: "public/images/triple.jpg",
+      testimonialThumb:
+        "http://res.cloudinary.com/df4t1zu7e/image/upload/v1702544236/xb1z9euivwpzsjlb0z8a.jpg",
       testimonialText:
         "Identified four critical access control vulnerabilities in Triple-A, granting users with different permissions the ability to exploit admin functionalities. Reported these serious security flaws to Triple-A, supplying detailed information to facilitate prompt and responsible resolution.",
       avatarName: " ",
