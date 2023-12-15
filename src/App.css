@@ -52,3 +52,7 @@ input:hover {
   cursor: url(assets/cursortext.png), text;
 }
 
+.social_handle {
+  position: fixed;
+  margin-left: -150px;
+}

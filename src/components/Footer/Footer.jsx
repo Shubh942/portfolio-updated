@@ -29,18 +29,6 @@ const Footer = () => {
       className="footer"
     >
       <p>Designed & Built with 💖 by {data.name}</p>
-      {githubInfo.stars && githubInfo.forks && (
-        <p>
-          <span>
-            <AiOutlineStar className="icon" />{" "}
-            {githubInfo.stars.toLocaleString()}
-          </span>
-          <span>
-            <AiOutlineFork className="icon" />{" "}
-            {githubInfo.forks.toLocaleString()}
-          </span>
-        </p>
-      )}
     </a>
   );
 };

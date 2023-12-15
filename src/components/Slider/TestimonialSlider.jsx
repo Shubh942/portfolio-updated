@@ -79,7 +79,7 @@ export default function TestimonialSlider() {
         {console.log("-----")}
         <Spacing lg="130" md="80" />
         <Div className="cs-shape_3 cs-to_up">
-          <img src="public/images/shape_1.svg" alt="Shape" />
+          <img src="/images/shape_1.svg" alt="Shape" />
         </Div>
         <Div className="container">
           <Div className="cs-testimonial_slider">

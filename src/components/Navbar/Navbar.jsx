@@ -27,8 +27,13 @@ const Menu = () => {
         <p>Experience</p>
         <div></div>
       </NavLink>
-      <NavLink to="/contact" className="items">
+      <NavLink to="/Profile" className="items">
         <p className="item-num">05.</p>
+        <p>Profile</p>
+        <div></div>
+      </NavLink>
+      <NavLink to="/contact" className="items">
+        <p className="item-num">06.</p>
         <p>Contact</p>
         <div></div>
       </NavLink>

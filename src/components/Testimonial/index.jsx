@@ -19,12 +19,12 @@ export default function Testimonial({
       <Div className="cs-rating">
         <Div
           className="cs-rating_bg"
-          style={{ backgroundImage: "url(public/images/rating.svg)" }}
+          style={{ backgroundImage: "url(/images/rating.svg)" }}
         />
         <Div
           className="cs-rating_percentage"
           style={{
-            backgroundImage: "url(public/images/rating.svg)",
+            backgroundImage: "url(/images/rating.svg)",
             width: `${ratings * 20}%`,
           }}
         />

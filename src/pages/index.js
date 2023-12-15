@@ -4,3 +4,4 @@ export { default as Experience } from "./Experience/Experience";
 export { default as Homepage } from "./Homepage/Homepage";
 export { default as Projects } from "./Projects/Projects";
 export { default as Error } from "./Error/Error";
+export { default as Profile } from "./Profile/Profile";

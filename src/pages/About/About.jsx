@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./About.scss";
 import { Navbar, Footer } from "../../components";
 import { motion } from "framer-motion";
@@ -11,6 +11,9 @@ import reactIcon from "../../assets/react.png";
 import cpp from "../../assets/cpp.png";
 import Tilt from "react-parallax-tilt";
 import TestimonialSlider from "../../components/Slider/TestimonialSlider";
+import cf from "./../../assets/codeforces.jpg";
+import lc from "./../../assets/leetcode.jpg";
+import gh from "./../../assets/github.jpg";
 import Spacing from "../../components/Spacing";
 
 const About = () => {
@@ -19,6 +22,44 @@ const About = () => {
     cpp: false,
     react: false,
   });
+  const [codeforces, setCodeforceUser] = useState({});
+  const [leetcode, setLeetcode] = useState({});
+  const [github, setGitHub] = useState({});
+
+  useEffect(() => {
+    fetch("https://codeforces.com/api/user.info?handles=shubh_197")
+      .then((response) => response.json())
+      .then((json) => {
+        let data = json.result[0];
+        setCodeforceUser(data);
+
+        // console.log(data.handle);
+      })
+      .catch((e) => console.error(e));
+  }, []);
+
+  useEffect(() => {
+    fetch("https://leetcode-stats-api.herokuapp.com/shubh200")
+      .then((response) => response.json())
+      .then((json) => {
+        let data = json;
+        setLeetcode(data);
+
+        // console.log(data);
+      })
+      .catch((e) => console.error(e));
+  }, []);
+
+  useEffect(() => {
+    fetch("https://api.github.com/users/Shubh942")
+      .then((response) => response.json())
+      .then((json) => {
+        let data = json;
+        setGitHub(data);
+        // console.log(data);
+      })
+      .catch((e) => console.error(e));
+  }, []);
 
   const toggleRotate = (key) => {
     setRotate((prevState) => ({
@@ -99,19 +140,20 @@ const About = () => {
             </motion.div>
           </div>
         </div>
+
+        {/* Start Testimonial Section */}
+        {/* <br /> */}
+        {/* <h1 className="gradient__text">Findings</h1> */}
+        {/* End Team Section */}
+
+        {/* Start Testimonial Section */}
+        {/* <TestimonialSlider className="test" /> */}
+        {/* End Testimonial Section */}
+
+        {/* Start Blog Section */}
+        {/* <Spacing lg="150" md="80" /> */}
+        {/* End Testimonial Section */}
       </div>
-      {/* Start Testimonial Section */}
-      <br />
-      <h1 className="gradient__text">Findings</h1>
-      {/* End Team Section */}
-
-      {/* Start Testimonial Section */}
-      <TestimonialSlider className="test" />
-      {/* End Testimonial Section */}
-
-      {/* Start Blog Section */}
-      {/* <Spacing lg="150" md="80" /> */}
-      {/* End Testimonial Section */}
       <Footer />
     </motion.div>
   );
