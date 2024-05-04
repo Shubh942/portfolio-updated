@@ -129,64 +129,28 @@ const data = {
     "http://res.cloudinary.com/df4t1zu7e/image/upload/v1702541289/apnl5rh7ahxpdrxotlil.jpg",
   experience: [
     {
-      heading: "Prometeo'23 - HackOver-flow(24hrs)",
-      type: "Hackthon-IIt Jodhpur",
-      duration: "Prometeo'23-HackOverflow(24Hrs)",
-      companyLogo:
-        "http://res.cloudinary.com/df4t1zu7e/image/upload/v1702541645/jilk0cazb7ejael7h2bb.jpg",
+      heading: "GSoC'24 @C2SI",
+      type: "Open source Contribution",
+      duration: "1 May - Present",
+      companyLogo: "/src/assets/gsoc.png",
       lowHeading: [
         {
           heading: "Project Course",
           content:
-            "Resume buolder web application for users to create and edit Proffessional Resumes",
-        },
-        {
-          heading: "Tried Latex Implemenmtation",
-          content: "Failed to implement Latex but done with basic React",
-        },
-        {
-          heading: "Job Role Recommendation Model",
-          content: "Done with K-neighbours, nltk",
+            "Working on GDBUi project for making debugging of code without cli",
         },
       ],
     },
+
     {
-      heading: "Prometeo'23 - HackOver-flow(24hrs)",
-      type: "Hackthon-IIt Jodhpur",
-      duration: "Prometeo'23-HackOverflow(24Hrs)",
-      companyLogo:
-        "http://res.cloudinary.com/df4t1zu7e/image/upload/v1702541645/jilk0cazb7ejael7h2bb.jpg",
+      heading: "SDE Intern @Tranzact",
+      type: "SDE Intern",
+      duration: "6 May - Present",
+      companyLogo: "/src/assets/tranzact.jpg",
       lowHeading: [
         {
           heading: "Project Course",
-          content:
-            "Resume buolder web application for users to create and edit Proffessional Resumes",
-        },
-        {
-          heading: "Tried Latex Implemenmtation",
-          content: "Failed to implement Latex but done with basic React",
-        },
-      ],
-    },
-    {
-      heading: "Prometeo'23 - HackOver-flow(24hrs)",
-      type: "Hackthon-IIt Jodhpur",
-      duration: "Prometeo'23-HackOverflow(24Hrs)",
-      companyLogo:
-        "http://res.cloudinary.com/df4t1zu7e/image/upload/v1702541645/jilk0cazb7ejael7h2bb.jpg",
-      lowHeading: [
-        {
-          heading: "Project Course",
-          content:
-            "Resume buolder web application for users to create and edit Proffessional Resumes",
-        },
-        {
-          heading: "Tried Latex Implemenmtation",
-          content: "Failed to implement Latex but done with basic React",
-        },
-        {
-          heading: "Job Role Recommendation Model",
-          content: "Done with K-neighbours, nltk",
+          content: "Intern for backend developer role.",
         },
       ],
     },

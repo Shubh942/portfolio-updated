@@ -11,7 +11,7 @@ export default function Testimonial({
 }) {
   return (
     <Div className="cs-testimonial cs-style1">
-      {console.log(testimonialText)}
+      {/* {console.log(testimonialText)} */}
       <Div className="cs-testimonial_quote">
         <Icon icon="fa:quote-left" />
       </Div>

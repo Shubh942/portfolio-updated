@@ -48,7 +48,7 @@ const Profile = () => {
       .then((json) => {
         let data = json;
         setGitHub(data);
-        // console.log(data);
+        console.log(data);
       })
       .catch((e) => console.error(e));
   }, []);
@@ -71,7 +71,7 @@ const Profile = () => {
               <ul>
                 <li>
                   <a
-                    href="https://codeforces.com/profile/utkarsh_raj_13"
+                    href="https://codeforces.com/profile/shubh_197"
                     target="_blank"
                     className="handle"
                   >
@@ -95,11 +95,11 @@ const Profile = () => {
               <ul>
                 <li>
                   <a
-                    href="https://leetcode.com/utkarsh_raj_13/"
+                    href="https://leetcode.com/shubh200/"
                     target="_blank"
                     className="handle"
                   >
-                    {codeforces.handle}
+                    {"shubh200"}
                   </a>
                 </li>
 
@@ -122,7 +122,7 @@ const Profile = () => {
               <ul>
                 <li>
                   <a
-                    href="https://github.com/rajutkarsh07"
+                    href="https://github.com/Shubh942"
                     target="_blank"
                     className="handle"
                   >

@@ -13,16 +13,10 @@ const ExppartCard = ({ item }) => {
         <h3>{item.type}</h3>
         {item.lowHeading.map((item2) => (
           <p>
-            <h4>
-              {"-> "}
-              {item2.heading}
-            </h4>
-            <a>{item2.content}</a>
+            <h3>{item2.content}</h3>
+            <p>{item2.duration}</p>
           </p>
         ))}
-        <p>
-          {data.started} - {data.end}
-        </p>
       </div>
       <div></div>
     </div>
